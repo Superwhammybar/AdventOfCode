@@ -6,11 +6,13 @@ with open('p2-inputs') as txt:
 
 value = 0
 frequencies = [0]
-while True:
+complete = False
+while complete is False:
     for adjustments in inputs:
         value += int(adjustments)
         if value in frequencies:
             print(value)
+            complete = True
             break
         else:
             frequencies.append(value)
