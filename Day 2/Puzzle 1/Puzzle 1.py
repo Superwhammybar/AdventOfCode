@@ -1,13 +1,13 @@
 all_entries = []
 
-with open('p1-inputs') as txt:
+with open('..\d2-inputs') as txt:
     for row in txt:
         all_entries.append(row.strip('\n'))
 
 only_2 = []
 only_3 = []
 
-for num, word in enumerate(all_entries):
+for word in all_entries:
     letter_dict = {}
     for letter in word:
         if letter not in letter_dict.keys():
@@ -17,11 +17,9 @@ for num, word in enumerate(all_entries):
 
     if 2 in letter_dict.values():
         only_2.append(word)
-        print(str(num), str(2), word)
 
     if 3 in letter_dict.values():
         only_3.append(word)
-        print(str(num), str(3), word)
 
 twos = len(only_2)
 threes = len(only_3)

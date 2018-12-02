@@ -1,6 +1,6 @@
 inputs = []
 
-with open('p1-inputs') as txt:
+with open('d2-inputs') as txt:
     for row in txt:
         inputs.append(row)
 
