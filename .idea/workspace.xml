@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="992488b3-4a74-4536-91d5-dbd31dcd509c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 3/Puzzle 1/Puzzle 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 3/d3-inputs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 3/Puzzle 2/Puzzle 2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 3/Puzzle 1/Puzzle 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/Puzzle 1/Puzzle 1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,9 +17,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day 3/Puzzle 1/Puzzle 1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+            <state relative-caret-position="323">
+              <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 3/Puzzle 2/Puzzle 2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-465" />
           </provider>
         </entry>
       </file>
@@ -61,6 +67,7 @@
         <option value="$PROJECT_DIR$/Day 2/Puzzle 2/Puzzle 2.py" />
         <option value="$PROJECT_DIR$/Day 3/Puzzle 1.py" />
         <option value="$PROJECT_DIR$/Day 3/d3-inputs" />
+        <option value="$PROJECT_DIR$/Day 3/Puzzle 2/Puzzle 2.py" />
         <option value="$PROJECT_DIR$/Day 3/Puzzle 1/Puzzle 1.py" />
       </list>
     </option>
@@ -91,6 +98,12 @@
               <item name="AoC18" type="b2602c69:ProjectViewProjectNode" />
               <item name="AoC18" type="462c0819:PsiDirectoryNode" />
               <item name="Day 3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AoC18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AoC18" type="462c0819:PsiDirectoryNode" />
+              <item name="Day 3" type="462c0819:PsiDirectoryNode" />
+              <item name="Puzzle 1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AoC18" type="b2602c69:ProjectViewProjectNode" />
@@ -264,11 +277,26 @@
       <option name="project" value="LOCAL" />
       <updated>1543747798220</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day 3 Puzzle 1">
+      <created>1543863772874</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543863772874</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Day 3 Puzzle 1">
+      <created>1543863869496</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543863869496</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2208" height="1208" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -294,7 +322,8 @@
     <MESSAGE value="Updated Puzzle2 to end properly" />
     <MESSAGE value="Day 2 Puzzle 1" />
     <MESSAGE value="Day 2 Puzzle 2&#10;+ moved inputs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 2 Puzzle 2&#10;+ moved inputs" />
+    <MESSAGE value="Day 3 Puzzle 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 3 Puzzle 1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Day 1/Puzzle 2/Puzzle2.py">
@@ -333,10 +362,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day 3/Puzzle 2/Puzzle 2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-465" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day 3/Puzzle 1/Puzzle 1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+        <state relative-caret-position="323">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
         </state>
       </provider>
     </entry>
