@@ -2,7 +2,7 @@
 # id_find = '\#[0-9]+?'
 # location_find = '[0-9]+?\,[0-9]{1,3}'
 # area_find = '[0-9]+?x[0-9]{1,3}'
-# list_of_info = []
+#
 
 # with open('..\d3-inputs') as txtfile:
 #     for line in txtfile:
@@ -30,6 +30,8 @@
 #
 #         list_of_info.append(line_info)
 #         # print(line_info)
+
+list_of_info = []
 
 with open('..\d3-inputs') as txtfile:
     for line in txtfile:
@@ -74,11 +76,18 @@ for info in list_of_info:
             location = board[y_coord + height][x_coord + width]
 
             board[y_coord + height][x_coord + width] += 1
+            if board[y_coord + height][x_coord + width]
 
-counter = 0
-for rw in board:
-    for col in rw:
-        if col >= 2:
-            counter += 1
 
-print(counter)
+                for info in list_of_info:
+                    x_coord = info[1][0]  # First coord to pass
+                    y_coord = info[1][1]  # Second coord to pass
+
+                    x_width = info[2][0]
+                    y_height = info[2][1]
+                    for height in range(y_height):
+                        for width in range(x_width):
+                            location = board[y_coord + height][x_coord + width]
+
+                            board[y_coord + height][x_coord + width] += 1
+                            if board[y_coord + height][x_coord + width]
