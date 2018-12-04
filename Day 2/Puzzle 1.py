@@ -1,6 +1,6 @@
 all_entries = []
 
-with open('..\d2-inputs') as txt:
+with open('d2-inputs') as txt:
     for row in txt:
         all_entries.append(row.strip('\n'))
 

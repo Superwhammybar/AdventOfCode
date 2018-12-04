@@ -1,6 +1,6 @@
 list_of_info = []
 
-with open('..\d3-inputs') as txtfile:
+with open('d3-inputs') as txtfile:
     for line in txtfile:
         line_info = []
         line = line.replace('#', '')
