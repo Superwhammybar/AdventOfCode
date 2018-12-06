@@ -40,62 +40,34 @@ board = []
 for m_y in range(max_y+1):
     board_row = []
     for m_x in range(max_x+1):
-        board_row.append(['', 1000, False]) # Owner, Shortest Distance, Shared Shortest
+        board_row.append([False, False]) #Owned by coord, in the region, str
     board.append(board_row)
 
 for c in coords:
-    char = c[0]
     x = c[1]
     y = c[2]
 
-    board[y][x][0] = char
-    board[y][x][1] = -1
-
-    for num, all_y in enumerate(board):
-        for n, all_x in enumerate(all_y):
-            y_dist = y - num
-            if y_dist < 0:
-                y_dist = y_dist * -1
-
-            x_dist = x - n
-            if x_dist < 0:
-                x_dist = x_dist * -1
-
-            distance = y_dist + x_dist
-
-            if distance == all_x[1]:
-                all_x[2] = True
-
-            if distance < all_x[1]:
-                all_x[0] = char
-                all_x[1] = distance
-                all_x[2] = False
-
-results = {}
-
-for row in board:
-    for col in row:
-        if col[2] is False:
-            if col[0] not in results.keys():
-                results[col[0]] = 1
-            else:
-                results[col[0]] = results[col[0]] + 1
+    board[y][x][0] = True
 
 
-exclusions = []
+region_counter = 0
+
 for num, row in enumerate(board):
-
     for n, col in enumerate(row):
-        if num == 0 or n == 0 or num == len(board) or n == len(row):
-            exclusions.append(col[0])
+        total_distance = 0
 
+        for coord in coords:
+            x = coord[1]
+            y = coord[2]
 
-max_val = 0
-winner = ''
-for k, v in results.items():
-    if k not in exclusions:
-        if v > max_val:
-            max_val = v
-            winner = k
+            y_dist = abs(y - num)
+            x_dist = abs(x - n)
 
-print(winner, max_val)
+            dist = y_dist + x_dist
+            total_distance += dist
+
+        if total_distance < 10000:
+            region_counter += 1
+            col[1] = True
+
+print(region_counter)
