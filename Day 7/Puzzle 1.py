@@ -11,7 +11,7 @@ compiled = re.compile(pattern)
 
 dependencies = {}
 
-with open('d7-inputs') as txtfile:
+with open('test-inputs') as txtfile:
     for row in txtfile:
         found_chars = compiled.findall(row)
 
