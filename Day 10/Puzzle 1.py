@@ -36,5 +36,5 @@ while True:
         coords[key][0][0] = coords[key][0][0] + coords[key][1][0]
         coords[key][0][1] = coords[key][0][1] + coords[key][1][1]
 
-    print(counter)
+
     counter += 1
