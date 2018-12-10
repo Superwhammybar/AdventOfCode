@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="992488b3-4a74-4536-91d5-dbd31dcd509c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day 10/Puzzle 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 10/d10-inputs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 10/test-inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 10/Puzzle 2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 10/Puzzle 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 10/Puzzle 1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +23,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 10/Puzzle 1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+            <state relative-caret-position="491">
+              <caret line="38" column="17" selection-end-line="40" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 10/Puzzle 2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="593">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -102,6 +112,7 @@
         <option value="$PROJECT_DIR$/Day 10/test-inputs" />
         <option value="$PROJECT_DIR$/Day 10/d10-inputs" />
         <option value="$PROJECT_DIR$/Day 10/Puzzle 1.py" />
+        <option value="$PROJECT_DIR$/Day 10/Puzzle 2.py" />
       </list>
     </option>
   </component>
@@ -399,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544395413852</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Day 10 Puzzles">
+      <created>1544470169635</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1544470169636</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -439,7 +457,8 @@
     <MESSAGE value="Day 7 Puzzle 2" />
     <MESSAGE value="Day 8 Puzzles" />
     <MESSAGE value="Day 9 Puzzles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 9 Puzzles" />
+    <MESSAGE value="Day 10 Puzzles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 10 Puzzles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -721,8 +740,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 10/Puzzle 1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        <state relative-caret-position="491">
+          <caret line="38" column="17" selection-end-line="40" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 10/Puzzle 2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
