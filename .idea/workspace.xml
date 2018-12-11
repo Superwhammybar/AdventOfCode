@@ -24,20 +24,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 11/Puzzle 1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+            <state relative-caret-position="578">
+              <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day 11/Puzzle 2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="221">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -134,16 +134,6 @@
             <path>
               <item name="AoC18" type="b2602c69:ProjectViewProjectNode" />
               <item name="AoC18" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AoC18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AoC18" type="462c0819:PsiDirectoryNode" />
-              <item name="Day 10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AoC18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AoC18" type="462c0819:PsiDirectoryNode" />
-              <item name="Day 11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -433,19 +423,26 @@
       <option name="project" value="LOCAL" />
       <updated>1544470202970</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Day 11 Puzzles">
+      <created>1544566086373</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1544566086373</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="1072" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49930266" visible="true" weight="0.15753424" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49930266" visible="true" weight="0.15753424" />
       <window_info id="Structure" order="1" sideWeight="0.5006974" side_tool="true" weight="0.13766114" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32992566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49953958" visible="true" weight="0.41744548" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49953958" visible="true" weight="0.41744548" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39925718" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -476,7 +473,8 @@
     <MESSAGE value="Day 10 Puzzles" />
     <MESSAGE value="Day 10 Puzzle 2" />
     <MESSAGE value="Day 10 Puzzle 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 10 Puzzle 1" />
+    <MESSAGE value="Day 11 Puzzles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 11 Puzzles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -782,17 +780,17 @@
     <entry file="file://$PROJECT_DIR$/Day 11/d11-inputs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 11/Puzzle 2.py">
+    <entry file="file://$PROJECT_DIR$/Day 11/Puzzle 1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="578">
+          <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 11/Puzzle 1.py">
+    <entry file="file://$PROJECT_DIR$/Day 11/Puzzle 2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="221">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
         </state>
       </provider>
     </entry>
